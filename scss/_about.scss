@@ -1,6 +1,13 @@
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .7)} 75%,#{fade-out($black, .5)} 100%), url('../img/donut.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   p {
     margin-bottom: 5rem;
   }
